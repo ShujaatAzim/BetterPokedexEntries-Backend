@@ -10,4 +10,14 @@ class PokemonsController < ApplicationController
     render json: PokemonSerializer.new(@pokemon).to_serialized_json
   end
 
+  def create
+  end
+
+  def update
+  end
+
+  def destroy
+  end
+
+
 end
