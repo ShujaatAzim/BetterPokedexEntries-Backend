@@ -19,5 +19,4 @@ class PokemonsController < ApplicationController
   def destroy
   end
 
-
 end

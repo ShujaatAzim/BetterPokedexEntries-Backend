@@ -16,6 +16,7 @@ ActiveRecord::Schema.define(version: 2020_03_05_161014) do
     t.string "name"
     t.string "species"
     t.string "pokedex"
+    t.boolean "complete"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
