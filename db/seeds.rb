@@ -12,5 +12,8 @@ pokemon9 = Pokemon.create(name: "Blastoise", species: "Shellfish", pokedex: "Bla
 pokemon10 = Pokemon.create(name: "Caterpie", species: "Worm", pokedex: "Caterpie uses silk thread to immobilize foes but it's really smol and adorbs.", complete: true)
 pokemon11 = Pokemon.create(name: "Metapod", species: "Cocoon", pokedex: "Metapod can harden, but if trained as Caterpie it can also tackle and string shot.", complete: false)
 pokemon12 = Pokemon.create(name: "Butterfree", species: "Butterfly", pokedex: "Butterfly has scales on it's wings that can turn into a fine powder to attack foes.", complete: false)
+pokemon13 = Pokemon.create(name: "Weedle", species: "Hairy Bug", pokedex: "Weedle uses the stinger on it's head to inflict poison upon it's enemies.", complete: true)
+pokemon14 = Pokemon.create(name: "Kakuna", species: "Cocoon", pokedex: "Kakuna can harden, but if trained as Weedle it can also poison sting and string shot.", complete: false)
+pokemon15 = Pokemon.create(name: "Beedrill", species: "Poison Bee", pokedex: "Beedrill can use it's double stingers to really hurt opponents, and cause poison.", complete: false)
 
 print "Done."
