@@ -1,5 +1,10 @@
 print "Seeding..."
 
+user01 = User.create(name: "Shujaat Azim", email: "shujaat.azim@gmail.com")
+user02 = User.create(name: "Arthur Johe", email: "arthur.johe@gmail.com")
+
+
+
 pokemon01 = Pokemon.create(name: "Bulbasaur", species: "Seed", pokedex: "Bulbasaur likes the sun, scientists dunno if it's a plant.", complete: true)
 pokemon02 = Pokemon.create(name: "Ivysaur", species: "Seed", pokedex: "Ivysaur likes the sun even more since the flower has sprouted.", complete: false)
 pokemon03 = Pokemon.create(name: "Venusaur", species: "Seed", pokedex: "Venusaur uses powerful solar attacks thanks to it's huge flower.", complete: false)
