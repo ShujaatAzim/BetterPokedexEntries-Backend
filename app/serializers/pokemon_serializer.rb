@@ -6,6 +6,11 @@ class PokemonSerializer
 
   def to_serialized_json
     options = {
+      include: {
+        entries: {
+          except: [:created_at, :updated_at]
+        }
+      },
       except: [:created_at, :updated_at]
     }
     @pokemon.to_json(options)
