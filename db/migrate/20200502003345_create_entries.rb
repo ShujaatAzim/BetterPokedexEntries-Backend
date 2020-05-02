@@ -4,6 +4,7 @@ class CreateEntries < ActiveRecord::Migration[5.2]
       t.integer :user_id
       t.integer :pokemon_id
       t.string :entry
+      t.boolean :complete
 
       t.timestamps
     end

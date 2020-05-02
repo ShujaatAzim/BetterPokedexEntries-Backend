@@ -16,6 +16,7 @@ ActiveRecord::Schema.define(version: 2020_05_02_003345) do
     t.integer "user_id"
     t.integer "pokemon_id"
     t.string "entry"
+    t.boolean "complete"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -24,7 +25,6 @@ ActiveRecord::Schema.define(version: 2020_05_02_003345) do
     t.string "name"
     t.string "species"
     t.string "pokedex"
-    t.boolean "complete"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

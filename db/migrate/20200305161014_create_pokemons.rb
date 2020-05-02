@@ -4,7 +4,6 @@ class CreatePokemons < ActiveRecord::Migration[5.2]
       t.string :name
       t.string :species
       t.string :pokedex
-      t.boolean :complete
 
       t.timestamps
     end
