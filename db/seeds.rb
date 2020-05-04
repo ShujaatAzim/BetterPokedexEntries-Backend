@@ -30,4 +30,5 @@ entry07 = Entry.create(user_id: user03.id, pokemon_id: pokemon07.id, entry: "I b
 entry08 = Entry.create(user_id: user03.id, pokemon_id: pokemon08.id, entry: "Wartortle is cool.", complete: false)
 entry09 = Entry.create(user_id: user03.id, pokemon_id: pokemon09.id, entry: "Blastoise is really sexy.", complete: false)
 
+
 print "Done."
